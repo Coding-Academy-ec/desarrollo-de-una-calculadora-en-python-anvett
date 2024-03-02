@@ -1,13 +1,25 @@
 def sumar(a, b):
+    return a+b
+    
+    
     # aqui se realiza la suma de dos numeros
 
 def restar(a, b):
+    return a-b
+    
     # aqui se realiza la resta de dos numeros
 
 def multiplicar(a, b):
+    return a*b
+    
     # aqui se realiza la multiplicacion de dos numeros
 
 def dividir(a, b):
+    if b == 0:
+        return "Error: No se puede dividir por cero" 
+          
+    return a/b
+    
     # aqui se realiza la division de dos numeros
 
 def main():
